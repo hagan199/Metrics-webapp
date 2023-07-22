@@ -1,70 +1,201 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <h2><b>Cryptocurrencies Tracking Application</b></h2>
+  <br>
+   <h1><b>Readme</b></h1>
 
-## Available Scripts
+</div>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
 
-### `npm start`
+<details>
+  <summary>
+    <h1>📗 Table of Contents</h1>
+  </summary>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
+</details>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Cryptocurrencies Tracking Application <a name="about-project"></a>
 
-### `npm test`
+Cryptocurrencies Tracking Application.
+CCTA Is a SPA single-page application where you can find information about the papular cryptocurrency at the current market right.
+This application fetches the cryptocurrencis information from the API and displays it in home page, where the user can also search for a particular cryptocurrency and get its details by clicking on each item.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Built With <a name="built-with"></a>
 
-### `npm run build`
+### Tech Stack <a name="tech-stack"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<details>
+    <summary>Client</summary>
+    <ul>
+        <li><a href="https://es.react.dev/">React</a></li>
+        <li><a href="https://redux.js.org/">Redux</a></li>
+        <li><a href="https://jestjs.io/">Unit Testing by Jest</a></li>
+    </ul>
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- Features -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Key Features <a name="key-features"></a>
 
-### `npm run eject`
+- **[Cryptocurrency dashboard Page]**
+- **[Cryptocurrency details Page]**
+- **[Search box to look for a particular crypto item]**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 💻 Getting Started <a name="getting-started"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clone this repository to your desired folder:
 
-## Learn More
+1 - Go to the <> Code section in the repository. <br></br>
+2 - Select the https tab and copy the url provided. <br></br>
+3 - Use the git clone command in the root of the folder where you will save the project.<br></br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+In order to run this project you need:
 
-### Code Splitting
+- Visual Studio Code
+- Git
+- Npm
+- Node
+- React
+- Jest
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
+### Install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Amongisde the prerequisites, you will need to install the following dependencies:
 
-### Making a Progressive Web App
+- react-redux
+- redux toolkit
+- babel
+- prop-types
+- react-router and react-router-dom
+- react-icons
+- uuid
+- jest
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+All of these dependencies can be installed with [npm](https://www.npmjs.com/)
 
-### Advanced Configuration
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Usage <a name="usage"></a>
 
-### Deployment
+To run the project, execute the following command in your terminal (inside the project folder):
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- npm install
+- npm start
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Run Tests <a name="run-tests"></a>
+
+To run the the tests, you have to run the following command in the console (inside the project folder):
+
+- npm install
+
+And then you will have to run the following command in the console (inside the project folder):
+
+- npm test
+
+You will see the outcome in the console
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Deployment <a name="deployment"></a>
+
+To deploy this project in a local enviroment, you will have to run:
+
+- npm start
+
+Then, you will see the project run in a local host: 3000.
+Otherwise, you can see the project deployed in Render in the live demo.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+👤 **Jawad Nazari**
+
+- GitHub: [@hagan199](https://github.com/hagan199)
+- LinkedIn: [@emmanuel-hagan-26219a95](https://www.linkedin.com/in/emmanuel-hagan-26219a95/)
+- Twitter: [@EmmaHagan23](https://twitter.com/EmmaHagan23)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [1] **[Adding About Page]**
+- [2] **[Adding Contact page]**
+- [3] **[Adding Desktop version]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Project Presentation -->
+
+## Project Presentation <a name="project-presentation"></a>
+
+- [Presentation]
+  [Click here for Live video presentation](https://www.loom.com/share/604160aaf8c8431e9f44182c0b0162c4)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project feel free to let me know via Linkedin or Github, also don't forget to leave your ⭐️. I will always appreciate your comments.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- Templete used for this project provided by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio).
+- API used for this project [CoinStats](https://documenter.getpostman.com/view/5734027/RzZ6Hzr3?version=latest#intro).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
