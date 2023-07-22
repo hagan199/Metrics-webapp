@@ -1,0 +1,27 @@
+nav {
+  margin-bottom: 5%;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10%;
+}
+
+.navbar-title {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.myLogo {
+  width: 30%;
+  margin-right: 20%;
+}
+
+.backward {
+  width: 20%;
+  cursor: pointer;
+}
