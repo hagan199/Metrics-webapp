@@ -2,7 +2,6 @@ import React from 'react';
 import { useNavigate } from 'react-router';
 import { IoChevronBackSharp } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
-import logo from '../images/myLogo.png';
 import '../styles/Navigation.css';
 
 const Navigation = () => {
@@ -19,10 +18,7 @@ const Navigation = () => {
           <IoChevronBackSharp size={25} />
         </div>
         <div className="flex-container navbar-title">
-          <Link to="/">
-            <img src={logo} alt=" My Logo" className="myLogo" />
-
-          </Link>
+          <Link to="/"><h1>Home</h1></Link>
         </div>
       </div>
     </nav>

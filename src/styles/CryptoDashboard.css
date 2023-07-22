@@ -27,16 +27,16 @@
 .currencyContainer:hover {
   transition: 0.5s ease-in-out;
   background: transparent;
-  box-shadow: 0 0 1em #8e2c50;
+  box-shadow: 0 0 1em  #6696e8;
   border: 2px solid #8e2c50;
 }
 
 .currencyContainer:nth-child(odd) {
-  background-color: #df4581;
+  background-color: #6696e8;
 }
 
 .currencyContainer:nth-child(even) {
-  background-color: #c43d71;
+  background-color: #6696e8;
 }
 
 .no-result {

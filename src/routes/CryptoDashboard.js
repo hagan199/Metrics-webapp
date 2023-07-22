@@ -73,7 +73,6 @@ const CryptoDashboard = () => {
 
   return (
     <>
-      <h1 className="title">Welcome to CCTA</h1>
       <div className="input">
         <input
           type="text"
