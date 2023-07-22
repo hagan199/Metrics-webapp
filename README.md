@@ -158,12 +158,19 @@ Otherwise, you can see the project deployed in Render in the live demo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+[Live demo on Render](https://64bc0460a116000490680860--cheery-cactus-69f447.netlify.app/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 <!-- Project Presentation -->
 
 ## Project Presentation <a name="project-presentation"></a>
 
 - [Presentation]
-  [Click here for Live video presentation]()
+  [Click here for Live video presentation](https://www.loom.com/share/8800bbec7e9549b490e33d9f07b95bb8)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
