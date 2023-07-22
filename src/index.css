@@ -1,0 +1,27 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #152e58;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.dim-bg {
+  background-color: #5387e1;
+}
+
+.copyright-text {
+  font-size: 1.1em;
+  text-align: center;
+  color: #fff;
+  padding: 2%;
+}

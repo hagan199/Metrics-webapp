@@ -1,0 +1,45 @@
+.crypto-card-arrow {
+  text-align: end;
+  padding-top: 7%;
+  padding-left: 70%;
+}
+
+.card-logo-box {
+  text-align: center;
+  padding-top: 2.4%;
+}
+
+.logo {
+  width: 5.2em;
+  height: 5.2em;
+}
+
+.crypto-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.card-col {
+  margin-bottom: 3%;
+  text-align: center;
+  padding: 3%;
+}
+
+.left-card {
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.right-card {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.crypto-card-title {
+  margin-right: 6px;
+  font-size: 1em;
+}
