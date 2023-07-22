@@ -140,7 +140,7 @@ Otherwise, you can see the project deployed in Render in the live demo.
 
 <!-- AUTHORS -->
 
-👤 **Jawad Nazari**
+👤 **Emmanuel Hagan**
 
 - GitHub: [@hagan199](https://github.com/hagan199)
 - LinkedIn: [@emmanuel-hagan-26219a95](https://www.linkedin.com/in/emmanuel-hagan-26219a95/)
@@ -163,7 +163,7 @@ Otherwise, you can see the project deployed in Render in the live demo.
 ## Project Presentation <a name="project-presentation"></a>
 
 - [Presentation]
-  [Click here for Live video presentation](https://www.loom.com/share/604160aaf8c8431e9f44182c0b0162c4)
+  [Click here for Live video presentation]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
