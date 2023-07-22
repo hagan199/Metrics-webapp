@@ -1,7 +1,7 @@
 .details-container {
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(to bottom, #6696e8,#6696e8);
+  background: linear-gradient(to bottom,#6696e8,#6696e8);
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
   border-radius: 12px;
   padding: 3%;
